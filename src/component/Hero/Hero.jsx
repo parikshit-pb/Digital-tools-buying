@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroPng from "../../assets/banner.png"
+import { BsCaretRight } from "react-icons/bs";
 
 const Hero = () => {
     return (
@@ -14,7 +15,7 @@ const Hero = () => {
         software—all in one place. Start creating faster today. <br /> Explore Products
       </p>
       <button className="btn btn-primary">Explore Products</button>
-      <button className="btn btn-primary">Watch Demo</button>
+      <button className="btn border-b-fuchsia-500 text-fuchsia-500"> <p> <BsCaretRight /></p> Watch Demo</button>
     </div>
   </div>
 </div>
