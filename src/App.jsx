@@ -3,6 +3,7 @@ import Navbar from './component/Navbar/Navbar';
 import Hero from './component/Hero/Hero';
 import Achievements from './component/Achievements/Achievements';
 import Step from './component/Step/Step';
+import Transparent from './component/Transparent/Transparent';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <Hero></Hero>
     <Achievements />
     <Step />
+    <Transparent />
    </div>
    
   );

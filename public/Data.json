@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions and modern templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "📄",
+    "image": "https://via.placeholder.com/300x200?text=Resume+Builder"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning developer portfolio with ready-made components.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Responsive design",
+      "React components",
+      "Easy customization"
+    ],
+    "icon": "🌐",
+    "image": "https://via.placeholder.com/300x200?text=Portfolio+Kit"
+  },
+  {
+    "id": 3,
+    "name": "UI Design System",
+    "description": "Complete UI kit with reusable components and design guidelines.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Figma files",
+      "Design tokens",
+      "Component library"
+    ],
+    "icon": "🎨",
+    "image": "https://via.placeholder.com/300x200?text=UI+Design"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker App",
+    "description": "Track your job applications and manage interview progress easily.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Analytics dashboard"
+    ],
+    "icon": "📊",
+    "image": "https://via.placeholder.com/300x200?text=Job+Tracker"
+  },
+  {
+    "id": 5,
+    "name": "Frontend Interview Prep",
+    "description": "Practice important frontend questions with detailed explanations.",
+    "price": 14.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ questions",
+      "Detailed answers",
+      "Mock tests"
+    ],
+    "icon": "💻",
+    "image": "https://via.placeholder.com/300x200?text=Interview+Prep"
+  },
+  {
+    "id": 6,
+    "name": "Code Snippet Manager",
+    "description": "Save and organize your reusable code snippets efficiently.",
+    "price": 3.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Cloud sync",
+      "Search snippets",
+      "Tag system"
+    ],
+    "icon": "🧩",
+    "image": "https://via.placeholder.com/300x200?text=Snippet+Manager"
+  }
+]

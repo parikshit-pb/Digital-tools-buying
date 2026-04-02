@@ -4,7 +4,7 @@ import { BsCaretRight } from "react-icons/bs";
 
 const Hero = () => {
     return (
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero bg-base-200 min-h-[60vs]">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img src={HeroPng} alt="" />
     <div>
