@@ -3,7 +3,7 @@ import { BsMinecartLoaded } from "react-icons/bs";
 
 const Navbar = () => {
     return (
-         <div className="navbar bg-base-100 shadow-sm">
+         <div className="navbar bg-base-100 shadow-sm justify-around flex container mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">DigiTools</a>
+    <a className="btn btn-ghost text-2xl text-blue-500 font-bold">DigiTools</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -34,12 +34,12 @@ const Navbar = () => {
       <li><a>FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <div> 
+  <div className="navbar-end gap-3">
+    
       <h1>  <BsMinecartLoaded /> </h1>
-    </div>
-    <a className="btn">Login</a>
-    <a className="btn">Get Started</a>
+    
+    <a className="btn border-none">Login</a>
+    <a className="btn text-white rounded-full bg-gradient-to-r from-blue-600 to-purple-600">Get Started</a>
   </div>
 </div>
     );

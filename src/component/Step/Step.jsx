@@ -5,25 +5,25 @@ import Rocket from "../../assets/rocket.png"
 
 const Step = () => {
     return (
-        <div>
-            <h1 className='text-4xl font-bold text-center'>Get Started in 3 Steps</h1>
-            <p className='text-sm text-gray-500 text-center'>Start using premium digital tools in minutes, not hours.</p>
+        <div className='max-w-[1600px] border border-red-500 p-3'>
+            <h1 className='text-2xl sm:text-3xl md:text-3xl  font-bold text-center'>Get Started in 3 Steps</h1>
+            <p className='text-sm text-g ray-500 text-center'>Start using premium digital tools in minutes, not hours.</p>
 
-            <div className='flex justify-center gap-4'>
-                <div className='border rounded-2xl max-w-[380px] max-h-[380px] p-2'>
+            <div className='max-w-[1200px] border border-black grid grid-cols-1 md:grid-cols-3 gap-1 justify-center mx-auto '>
+                <div className='border rounded-2xl max-w-[380px] max-h-[380px]'>
                     <div className='justify-end flex  '>
                         <p className='flex w-10 h-10 rounded-full  text-white bg-fuchsia-500 font-semibold justify-center items-center text-lg text-center'>01</p>
                     </div>
                     <img className='mx-auto bg-fuchsia-300 rounded-full p-2 mt-[30px]' src={ Man} alt="" />
-                    <h3 className=' text-center text-3xl font-bold py-[16px]'>Create Account</h3>
-                    <p className='text-center pb-[60px]'>Sign up for free in seconds. No credit card <br /> required to get started.</p>
+                    <h3 className=' text-2xl sm:text-3xl md:text-3xl font-bold text-center py-[16px]'>Create Account</h3>
+                    <p className='text-center pb-[60px] px-2'>Sign up for free in seconds. No credit <br /> card  required to get started.</p>
                 </div>
                 <div className='border rounded-2xl max-w-[380px] max-h-[380px] p-2 '>
                     <div className='justify-end flex  '>
                         <p className='flex w-10 h-10 rounded-full  text-white bg-fuchsia-500 font-semibold justify-center items-center text-lg text-center'>02</p>
                     </div>
                     <img className='mx-auto bg-fuchsia-300 rounded-full p-2 mt-[30px]' src={ Package} alt="" />
-                    <h3 className=' text-center text-3xl font-bold py-[16px]'>Choose Products</h3>
+                    <h3 className=' text-2xl sm:text-3xl md:text-3xl font-bold text-center py-[16px]'>Choose Products</h3>
                     <p className='text-center pb-[60px]'>Browse our catalog and select the tools <br /> that fit your needs.</p>
                 </div>
                 <div className='border rounded-2xl max-w-[380px] max-h-[380px] p-2 '>
@@ -31,7 +31,7 @@ const Step = () => {
                         <p className='flex w-10 h-10 rounded-full  text-white bg-fuchsia-500 font-semibold justify-center items-center text-lg text-center'>03</p>
                     </div>
                     <img className='mx-auto bg-fuchsia-300 rounded-full p-2 mt-[30px]' src={ Rocket} alt="" />
-                    <h3 className=' text-center text-3xl font-bold py-[16px]'>Start Creating</h3>
+                    <h3 className=' text-2xl sm:text-3xl md:text-3xl font-bold text-center py-[16px]'>Start Creating</h3>
                     <p className='text-center pb-[60px]'>Download and start using your premium <br />tools immediately.</p>
                 </div>
             </div>
